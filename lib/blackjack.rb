@@ -59,6 +59,7 @@ def runner
   while card_total <= 21 do
     hit?(card_total)
   end
+  binding.pry
   end_game(card_total)
 end
     
