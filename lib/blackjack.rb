@@ -46,7 +46,8 @@ end
 
 def hit?(card_total)
   prompt_user
-  get_user_input 
+  get_user_input
+  binding.pry
   while user_input != 'h' && user_input != 's' do
     invalid_command
     user_input = get_user_input
