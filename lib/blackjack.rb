@@ -59,15 +59,6 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-# def runner
-#   welcome
-#   card_total = hit?(initial_round)
-#   while card_total <= 21 do
-#     hit?(card_total)
-#   end
-#   end_game(card_total)
-# end
-
 def runner
   welcome
   card_total = initial_round
