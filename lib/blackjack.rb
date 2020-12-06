@@ -1,5 +1,3 @@
-require 'pry'
-
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -20,11 +18,6 @@ def get_user_input
   gets.chomp.downcase
 end
 
-# def get_user_input
-#   prompt_user
-#   gets.chomp.downcase
-# end
-
 def end_game(card_total)
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
@@ -34,7 +27,6 @@ def initial_round
   display_card_total(card_total)
   card_total
 end
-
 
 def hit?(card_total)
   prompt_user
