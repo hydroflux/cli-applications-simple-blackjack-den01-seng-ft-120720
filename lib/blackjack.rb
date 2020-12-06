@@ -35,7 +35,6 @@ def hit?(card_total)
   user_input = get_user_input 
   while user_input != 'h' && user_input != 's' do
     invalid_command
-    puts user_input
     user_input = get_user_input
   end
   if get_user_input == 'h'
