@@ -20,6 +20,11 @@ def get_user_input
   gets.chomp.downcase
 end
 
+# def get_user_input
+#   prompt_user
+#   gets.chomp.downcase
+# end
+
 def end_game(card_total)
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
